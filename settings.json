@@ -34,14 +34,12 @@
     "files.insertFinalNewline": true,
     "html.format.enable": true,
     "html.format.wrapLineLength": 80,
-
     /* PHP Intelephense (bmewburn.vscode-intelephense-client) */
     "intelephense.environment.includePaths": [
         "core/",
         "core/includes",
         "../vendor/"
     ],
-
     /* Linting PHPStan. PHP CodeSniffer configuration. */
     "phpsab.snifferEnable": true,
     "phpsab.standard": "Drupal,DrupalPractice",
@@ -55,7 +53,6 @@
     "[php]": {
         "editor.defaultFormatter": "valeryanm.vscode-phpsab"
     },
-
     /* PHP Language Features */
     "php.validate.enable": true,
     "php.validate.executablePath": "/user/local/bin/php",
@@ -63,5 +60,8 @@
     "php-docblocker.gap": true,
     "php-docblocker.useShortNames": true,
     "javascript.validate.enable": true,
-    "javascript.format.enable": true
+    "javascript.format.enable": true,
+    "emmet.includeLanguages": {
+        "twig": "html"
+    }
 }
